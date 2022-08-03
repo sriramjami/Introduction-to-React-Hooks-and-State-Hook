@@ -8,8 +8,8 @@ import {
 
 const GreetUser = () => {
   const [name, setName] = useState('')
-  console.log('Component re-rendered')
-  console.log(name)
+//   console.log('Component re-rendered')
+//   console.log(name)
   const onChangeName = event => setName(event.target.value)
   return (
     <MainContainer>
